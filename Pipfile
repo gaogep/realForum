@@ -1,0 +1,14 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.doubanio.com/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+tornado = "*"
+requests = "*"
+aiomysql = "*"
+
+[requires]
+python_version = "3.7"
