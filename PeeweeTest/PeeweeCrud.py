@@ -1,5 +1,5 @@
-from model import Vendors, Goods
-from data import supplier_list, goods_list
+from PeeweeTest.models.model import Vendors, Goods
+from PeeweeTest.models.data import supplier_list, goods_list
 
 
 def save_vendors():
