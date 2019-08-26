@@ -48,14 +48,14 @@ settings = {
         'host': '127.0.0.1',
         'user': 'root',
         'password': '123',
-        'port': 3306,
+        'po   rt': 3306,
         'db': 'rfm'
     }
 }
 
 if __name__ == "__main__":
     app = web.Application([
-        web.URLSpec("/", IndexHandler, {"db": settings["db"]}, name="index")
+        web.URLSpec("/", IndexHandler, {"db": settings["db"]}, name="index"),
     ], debug=True, **settings)
     app.listen(8080)
     ioloop.IOLoop.current().start()

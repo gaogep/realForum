@@ -13,6 +13,10 @@ peewee = "*"
 peewee-async = "*"
 wtforms = "*"
 wtforms-tornado = "*"
+wtforms-json = "*"
+redis = "*"
+pyjwt = "*"
+aiofiles = "*"
 
 [requires]
 python_version = "3.7"
